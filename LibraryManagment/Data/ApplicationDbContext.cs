@@ -14,5 +14,8 @@ namespace LibraryManagment.Data
         {
         }
         public DbSet<LibraryManagment.Models.Member> Member { get; set; }
+        public DbSet<LibraryManagment.Models.BookCategory> BookCategory { get; set; }
+        public DbSet<LibraryManagment.Models.Book> Book { get; set; }
+        public DbSet<LibraryManagment.Models.Lending> Lending { get; set; }
     }
 }
